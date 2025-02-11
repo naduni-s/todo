@@ -1,3 +1,12 @@
+<p>Extract the contents of the ZIP file to a folder on your local machine.</p>
+<p>Open xampp and on apache,mysql</p>
+<p>Go to phpmyadmin and import given sql file in zipped folder</p>
+<p>Navigate to the project folder in your machine</p>
+<p>Open the .env file and configure your database settings:
+Update DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD to match your local database configuration.</p>
+<p>Run the migrations to set up the tables (php artisan migrate)</p>
+<p>Start the Laravel development server(php artisan serve)</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
